@@ -1,0 +1,363 @@
+﻿@{
+    ViewData["Title"] = "";
+}
+
+<!-- Hero Div -->
+<div id="divHero" class="container-fluid">
+
+    <!-- Hero -->
+    <div class="row align-items-center border shadow-sm pt-lg-0 rounded-3">
+
+        <div class="col-lg-7 p-5">
+
+            <!-- Bold Header -->
+            <h1 class="display-4 fw-bold">Diş Tabibi Ahmet Yasin Bayram Özel Diş Kliniği</h1>
+
+            <!-- Lead Explanation -->
+            <p class="lead">Dişlerinizin güzelliğini ve sağlığını geri getiriyoruz.</p>
+
+            <!-- Hero Button -->
+            <div id="btnHero" class="d-grid">
+
+                <button type="button"
+                        class="btn btn-outline-success d-grid gap-2 col-6 btn-lg fw-bold me-md-2" onclick="scrollDown()">
+                    Adres
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- Hero Image -->
+        <div id="imgHero" class="col offset-1 p-0 overflow-hidden shadow-sm rounded-3">
+            <!-- Resimin Sol Tarafındaki rounded 0 olacak. Style Koduyla-->
+
+            <img src="~/img/resim11.jpg"
+                 alt=""
+                 width="500"
+                 height="500"/>
+
+        </div>
+
+    </div>
+
+</div>
+
+<hr id="hrFeaturette" />
+
+<div class="row">
+    <div class="col">
+        <table class="table table-dark table-hover">
+            <tr>
+                <th>Gün</th>
+                <th>Açılış Saati</th>
+                <th>Kapanış Saati</th>
+            </tr>
+            <tr>
+                <td>Pazartesi</td>
+                <td>10:00</td>
+                <td>19:00</td>
+            </tr>
+            <tr>
+                <td>Salı</td>
+                <td>10:00</td>
+                <td>19:00</td>
+            </tr>
+            <tr>
+                <td>Çarşamba</td>
+                <td>10:00</td>
+                <td>19:00</td>
+            </tr>
+            <tr>
+                <td>Perşembe</td>
+                <td>10:00</td>
+                <td>19:00</td>
+            </tr>
+            <tr>
+                <td>Cuma</td>
+                <td>10:00</td>
+                <td>19:00</td>
+            </tr>
+            <tr>
+                <td>Cumartesi</td>
+                <td>10:00</td>
+                <td>19:00</td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="col">
+        <form>
+            <label for="name" class="form-label">Adınız:</label><br>
+            <input type="text" id="name" name="name" class="form-control"><br>
+            <label for="phone" class="form-label">Telefon Numaranız:</label><br>
+            <input for="phone" class="form-control"><br>
+            <label for="appointment" class="form-label">Randevu Tarihi:</label><br>
+            <input type="date" id="appointment" name="appointment" class="form-control"><br>
+            <label for="time" class="form-label">Randevu Saati:</label><br>
+            <input type="time" id="time" name="time" class="form-control"><br>
+            <label for="message" class="form-label">Mesajınız:</label><br>
+            <textarea id="message" name="message" rows="5" cols="40" class="form-control"></textarea><br>
+            <input type="submit" value="Gönder" class="btn btn-primary">
+        </form>
+    </div>
+
+</div>
+
+
+<hr id="hrFeaturette" />
+
+<!-- Featurette Div -->
+<div id="divFeaturette" class="container-fluid">
+
+    <!-- Featurette -->
+    <div id="featurette" class="container row">
+
+        <!--  -->
+        <div class="col-md-7">
+
+            <!--  -->
+            <h2 headfeaturette>Endodonti</h2>
+
+            <!--  -->
+            <p class="lead">
+                Endodonti tedavisi, ağız içinde bulunan dişlerin pulpasının (diş eti dokusu) tedavisi anlamına gelir. Bu tedavi, dişin içindeki sinirlerin ve damarların çıkarılması ve dişin içi pıhtılaştırıcı madde ile doldurulması işlemlerini içerir. Endodonti tedavisi, diş ağrısı veya enfeksiyonlarını önlemek için yapılır ve genellikle dişlerin koruyucu kaplama altında kalmasına yardımcı olur.
+
+                Endodonti tedavisinin nasıl yapıldığı, dişin durumuna ve ne kadar hasar gördüğüne göre değişebilir. Genellikle, bir diş hekimi tarafından yapılan endodonti tedavisi şu şekilde gerçekleştirilir:
+
+                Dişin üstündeki kaplama veya diş eti açılır ve dişin içine ulaşılır.
+                Pulpa (diş eti dokusu) çıkarılır ve dişin içi temizlenir.
+                Dişin içi pıhtılaştırıcı madde ile doldurulur.
+                Diş kaplama altına alınır veya dişin üstü yeniden kaplanır.
+                Endodonti tedavisi, genellikle anestezi altında yapılır ve birkaç seanslık bir süreç olabilir.
+            </p>
+
+        </div>
+
+        <!--  -->
+        <div id="imgFeaturette" class="col-md-5">
+            <img class="rounded-2"
+                 src="https://media.istockphoto.com/id/1181143637/tr/foto%C4%9Fraf/endodontik-k%C3%B6k-kanal-tedavi-s%C3%BCreci-t%C4%B1bbi-olarak-do%C4%9Fru-di%C5%9F-3d-ill%C3%BCstrasyon.jpg?s=612x612&w=0&k=20&c=vrl2i8KEYaSFRrnQW4lXubXQXIfyr_j74SuNZXpw6WA="
+                 alt=""
+                 width="500"
+                 height="500" />
+        </div>
+    </div>
+
+    <hr id="hrFeaturette" />
+
+    <!-- Featurette -->
+    <div id="featurette" class="container row">
+
+        <!--  -->
+        <div class="col-md-7 order-md-2">
+
+            <!--  -->
+            <h2 headfeaturette>Restoratif Dolgu</h2>
+
+            <!--  -->
+            <p class="lead">
+                Restoratif dolgu, dişlerin zarar görmüş veya çürümüş kısımlarının onarılması için kullanılan bir yöntemdir. Bu dolgu, dişlerin önlerinde görünür olan yüzeylerinde veya arka dişlerde kullanılabilir. Restoratif dolgular, dişlerin doğal görünümünü korur ve ağız sağlığını korur.
+
+                Restoratif dolguların nasıl yapıldığı, dişin durumuna ve ne kadar hasar gördüğüne göre değişebilir. Genellikle, bir diş hekimi tarafından yapılan restoratif dolgu işlemi şu şekilde gerçekleştirilir:
+
+                Dişin üstündeki kaplama veya diş eti açılır ve dişin içine ulaşılır.
+                Dişin zarar görmüş veya çürümüş kısmı temizlenir ve şekillendirilir.
+                Restoratif malzeme (çoğunlukla amalgam, kompozit rezin veya porselen) dişin içine uygulanır.
+                Restoratif malzeme ısıtılır veya ışıkla kurutulur, bu sayede dişe sıkıca yapışır.
+                Diş kaplama altına alınır veya dişin üstü yeniden kaplanır.
+                Restoratif dolgu işlemi, genellikle anestezi altında yapılır ve birkaç seanslık bir süreç olabilir.
+            </p>
+
+        </div>
+
+        <!--  -->
+        <div id="imgFeaturette" class="col-md-5 order-md-1">
+            <img class="rounded-2"
+                 src="https://www.internationaldentalhospital.com/files/restoratif-tedaviler-dolgu_929_1564432715.jpg"
+                 alt=""
+                 width="500"
+                 height="500"
+                 style="" />
+        </div>
+
+    </div>
+
+    <hr id="hrFeaturette" />
+
+    <!-- Featurette -->
+    <div id="featurette" class="container row">
+
+        <!--  -->
+        <div class="col-md-7">
+
+            <!--  -->
+            <h2 headfeaturette>İmplant</h2>
+
+            <!--  -->
+            <p class="lead">
+                İmplant tedavisi, ağız içinde bulunan dişlerin yerine geçen, vücudun dokularıyla bütünleşen metal parçaların yerleştirilmesi işlemine verilen isimdir. Bu implantlar, dişlerin yerine geçen protezlerin takılması için kullanılır ve dişlerin eksikliğinin giderilmesine yardımcı olur. İmplant tedavisi, dişlerin çekilmesi veya doğuştan eksik olması gibi nedenlerle dişlerin eksikliğinin giderilmesi için kullanılır.
+
+                İmplant tedavisinin nasıl yapıldığı, her hastanın durumuna göre değişebilir. Genellikle, bir diş hekimi tarafından yapılan implant tedavisi şu şekilde gerçekleştirilir:
+
+                Ağız içinde implantın yerleştirileceği bölge anestezi altında numaralandırılır.
+                Implantın yerleştirileceği bölge açılır ve implantın yerleştirileceği bölge temizlenir.
+                İmplant yerleştirilir ve implantın yerleştirileceği bölge kapatılır.
+                İmplant tedavisi, genellikle birkaç seanslık bir süreç olabilir ve birkaç hafta sürebilir.
+            </p>
+
+        </div>
+
+        <!--  -->
+        <div id="imgFeaturette" class="col-md-5">
+            <img class="rounded-2"
+                 src="https://media.istockphoto.com/id/931130140/tr/foto%C4%9Fraf/di%C5%9F-ve-di%C5%9F-kesici-di%C5%9F-implant-%C3%A7ene-3d-render.jpg?s=612x612&w=0&k=20&c=jc8grW6pe06Q61HWialT4vWO1CnX0MEoZSv1LEyXlzc="
+                 alt=""
+                 width="500"
+                 height="500" />
+        </div>
+    </div>
+
+    <hr id="hrFeaturette" />
+
+    <!-- Featurette -->
+    <div id="featurette" class="container row">
+
+        <!--  -->
+        <div class="col-md-7 order-md-2">
+
+            <!--  -->
+            <h2 headfeaturette>Zirkonyum Kaplama</h2>
+
+            <!--  -->
+            <p class="lead">
+                Zirkonyum kaplama tedavisi, dişlerin önlerinde görünür olan yüzeylerinde kullanılan bir kaplama yöntemidir. Bu kaplama, dişlerin doğal görünümünü korur ve ağız sağlığını korur. Zirkonyum, dişlerin kaplaması için kullanılan bir malzemedir ve dişlerin kaplamasının daha dayanıklı ve güçlü olmasını sağlar.
+
+                Zirkonyum kaplama tedavisinin nasıl yapıldığı, dişin durumuna ve ne kadar hasar gördüğüne göre değişebilir. Genellikle, bir diş hekimi tarafından yapılan zirkonyum kaplama tedavisi şu şekilde gerçekleştirilir:
+
+                Dişin üstündeki kaplama veya diş eti açılır ve dişin içine ulaşılır.
+                Dişin zarar görmüş veya çürümüş kısmı temizlenir ve şekillendirilir.
+                Zirkonyum malzemesi dişin üzerine uygulanır ve şekillendirilir.
+                Zirkonyum malzemesi ısıtılır veya ışıkla kurutulur, bu sayede dişe sıkıca yapışır.
+                Zirkonyum kaplama tedavisi, genellikle anestezi altında yapılır ve birkaç seanslık bir süreç olabilir.
+            </p>
+
+        </div>
+
+        <!--  -->
+        <div id="imgFeaturette" class="col-md-5 order-md-1">
+            <img class="rounded-2"
+                 src="https://www.discimistanbul.com.tr/wp-content/uploads/2019/11/Zirkonyum-Porselenlerin-O%CC%88mru%CC%88-Ne-Kadar.jpg"
+                 alt=""
+                 width="500"
+                 height="500"
+                 style="" />
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Cards Div -->
+<div id="divCards" class="container-fluid">
+
+    <div class="container px-4 py-5" id="infoCards">
+        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <symbol id="geo-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z" />
+            </symbol>
+            <symbol id="calendar3" viewBox="0 0 16 16">
+                <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z" />
+                <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+            </symbol>
+        </svg>
+        <h2 class="pb-2 border-bottom">Info Cards</h2>
+
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" id="card1">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Bekleme Salonu</h3>
+                        <ul class="d-flex list-unstyled mt-auto">
+                            <li class="me-auto">
+                                <!-- Sitenin Logosu gelecek.
+
+                                <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white" />
+
+                                -->
+                            </li>
+                            <li class="d-flex align-items-center me-3">
+                                <!--Iconlar Çalışmıyor-->
+                                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                                <small>DtAYB</small>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                                <small></small>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" id="card2">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Bekleme Köşesi</h3>
+                        <ul class="d-flex list-unstyled mt-auto">
+                            <li class="me-auto">
+                                <!-- Sitenin Logosu gelecek.
+
+                                <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white" />
+
+                                -->
+                            </li>
+                            <li class="d-flex align-items-center me-3">
+                                <svg class="bi me-2" width="1em" height="1em">
+                                    <use xlink:href="#geo-fill"></use>
+                                </svg>
+                                <small>DtAYB</small>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <svg class="bi me-2" width="1em" height="1em">
+                                    <use xlink:href="#calendar3"></use>
+                                </svg>
+                                <small></small>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" id="card3">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Klinik 1</h3>
+                        <ul class="d-flex list-unstyled mt-auto">
+                            <li class="me-auto">
+                                <!-- Sitenin Logosu gelecek.
+
+                                <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white" />
+
+                                -->
+                            </li>
+                            <li class="d-flex align-items-center me-3">
+                                <svg class="bi me-2" width="1em" height="1em">
+                                    <use xlink:href="#geo-fill"></use>
+                                </svg>
+                                <small>DtAYB</small>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <svg class="bi me-2" width="1em" height="1em">
+                                    <use xlink:href="#calendar3"></use>
+                                </svg>
+                                <small></small>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
